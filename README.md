@@ -9,6 +9,7 @@
 - `/expire` — Upload an image, set a timer, and let Peek-a-bot handle deletion.
   - Optional username hiding (`show_name: false`)
   - Optional caption shown below image
+  - Optional **spoiler blur** for sensitive images (`spoiler: true`)
 - `/peekabot` — Show usage instructions
 - `/testdelete` — For testing (optional)
 
@@ -28,6 +29,7 @@
 
 - Python 3.10+
 - `discord.py` version 2.3 or higher
+- `aiohttp` for spoiler image handling
 - Discord bot token from https://discord.com/developers/applications
 
 ---
@@ -54,8 +56,6 @@ python bot.py
 ---
 
 ### Option 2: Run with Docker
-
-Build and run container:
 
 ```bash
 docker build -t peekabot .
