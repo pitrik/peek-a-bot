@@ -4,7 +4,7 @@
 
 ---
 
-## 💡 Features
+##  Features
 
 - `/expire` — Upload an image, set a timer, and let Peek-a-bot handle deletion.
   - Optional username hiding (`show_name: false`)
@@ -15,7 +15,7 @@
 
 ---
 
-## 🔐 Privacy and Safety
+##  Privacy and Safety
 
 - No messages or files are logged or stored
 - All deletions are timed and automatic
@@ -23,7 +23,7 @@
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 
@@ -64,13 +64,13 @@ docker run -d --name peekabot -e TOKEN=your_token peekabot
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — use, fork, remix freely.
 
 ---
 
-## 👤 Created by
+##  Created by
 
 Patrick Turner  
 Feedback, pull requests, or stars appreciated!
